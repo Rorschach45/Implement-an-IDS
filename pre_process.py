@@ -37,5 +37,15 @@ ind=np.argsort(mi,axis=0)
 print("/n")
 print("/n")
 print(ind)
+target_df=train_dat[41]
+print(train_dat.shape)
+ind=ind[0:ind.__len__()-8]
+train_dat=train_dat.drop(ind,axis=1)
+train_dat=train_dat.drop(42,axis=1)
+train_dat=pd.concat([train_dat,target_df],axis=1)
+print(train_dat.shape)
+print(train_dat.head())
+print(target_df.head())
+train_dat.to_csv('./data/20 percent train set boolean feature selected.csv',sep=',', encoding='utf-8',index=False,header=False)
 
 
