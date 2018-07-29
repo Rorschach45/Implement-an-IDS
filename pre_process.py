@@ -17,5 +17,7 @@ reduced_attacks={"normal": "normal","neptune":"dos", "warezclient":"r2l", "ipswe
 train_data[41].replace(reduced_attacks,inplace=True)
 
 print (train_data[41].unique())
-train_data[41]=train_data[41].astype('category').cat.codes
-print(train_data.dtypes)
+attck_encode={"normal":0, "dos":1 ,"r2l":2, "probe":3 ,"u2r":4}
+train_data[41].replace(attck_encode,inplace=True)
+print (train_data.dtypes)
+print(train_data.head())
