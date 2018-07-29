@@ -1,0 +1,4 @@
+['normal' 'neptune' 'warezclient' 'ipsweep' 'portsweep' 'teardrop' 'nmap'
+ 'satan' 'smurf' 'pod' 'back' 'guess_passwd' 'ftp_write' 'multihop'
+ 'rootkit' 'buffer_overflow' 'imap' 'warezmaster' 'phf' 'land'
+ 'loadmodule' 'spy']
