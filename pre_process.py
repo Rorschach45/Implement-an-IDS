@@ -1,12 +1,12 @@
 import pandas as pd
 import weka.core.jvm as jvm
-import sklearn as sk
+from sklearn.feature_selection import mutual_info_regression,mutual_info_classif,mutual_info_
+import numpy as np
 
-
-train_data=pd.read_csv('./data/20 Percent Training Set.csv',header=-1)
+#
 
 def encode_data():
-
+    train_data = pd.read_csv('./data/20 Percent Training Set.csv', header=-1)
     train_data[1]=train_data[1].astype('category').cat.codes
     train_data[2]=train_data[2].astype('category').cat.codes
     train_data[3]=train_data[3].astype('category').cat.codes
@@ -22,4 +22,20 @@ def encode_data():
     train_data[41].replace(two_type_encode,inplace=True)
     train_data.to_csv('./data/20 Percent Training Set bolean_attack.csv',sep=',', encoding='utf-8',index=False,header=False)
 
-encode_data()
+
+train_dat=pd.read_csv('./data/20 Percent Training Set bolean_attack.csv',header=-1)
+
+
+train=np.asarray(train_dat)
+
+target=train[:,41]
+print(train.shape)
+train=np.delete(train,41,axis=1)
+print(train.shape)
+mi=mutual_info_regression(train,target)
+ind=np.argsort(mi,axis=0)
+print("/n")
+print("/n")
+print(ind)
+
+
