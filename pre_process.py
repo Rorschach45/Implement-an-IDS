@@ -23,29 +23,31 @@ def encode_data():
     train_data.to_csv('./data/20 Percent Training Set bolean_attack.csv',sep=',', encoding='utf-8',index=False,header=False)
 
 
-train_dat=pd.read_csv('./data/20 Percent Training Set bolean_attack.csv',header=-1)
+def slected_feature_data_sets_save(ind,filename):
+    train_dat=pd.read_csv(filename+'.csv',header=-1)
+    print(train_dat.shape)
+    target_df=train_dat[41]
+    train_dat=train_dat.drop(ind,axis=1)
+    train_dat=train_dat.drop(42,axis=1)
+    train_dat=pd.concat([train_dat,target_df],axis=1)
+    train_dat.to_csv(filename + 'feature selected.csv',sep=',', encoding='utf-8',index=False,header=False)
 
 
-train=np.asarray(train_dat)
+def find_features():
+    train_dat=pd.read_csv('./data/20 Percent Training Set bolean_attack.csv',header=-1)
+    print(train_dat.shape)
+    train=np.asarray(train_dat)
+    target=train[:,41]
+    train=np.delete(train,41,axis=1)
+    mi=mutual_info_regression(train,target)
+    ind=np.argsort(mi,axis=0)
+    target_df=train_dat[41]
+    ind=ind[0:ind.__len__()-8]
+    train_dat=train_dat.drop(ind,axis=1)
+    train_dat=train_dat.drop(42,axis=1)
+    train_dat=pd.concat([train_dat,target_df],axis=1)
+    train_dat.to_csv('./data/20 percent train set boolean feature selected.csv',sep=',', encoding='utf-8',index=False,header=False)
+    slected_feature_data_sets_save(ind,'./data/20 Percent Training Set encoded_data')
+    slected_feature_data_sets_save(ind,'./data/20 Percent Training Set reducedAttacks_data')
 
-target=train[:,41]
-print(train.shape)
-train=np.delete(train,41,axis=1)
-print(train.shape)
-mi=mutual_info_regression(train,target)
-ind=np.argsort(mi,axis=0)
-print("/n")
-print("/n")
-print(ind)
-target_df=train_dat[41]
-print(train_dat.shape)
-ind=ind[0:ind.__len__()-8]
-train_dat=train_dat.drop(ind,axis=1)
-train_dat=train_dat.drop(42,axis=1)
-train_dat=pd.concat([train_dat,target_df],axis=1)
-print(train_dat.shape)
-print(train_dat.head())
-print(target_df.head())
-train_dat.to_csv('./data/20 percent train set boolean feature selected.csv',sep=',', encoding='utf-8',index=False,header=False)
-
-
+find_features()
