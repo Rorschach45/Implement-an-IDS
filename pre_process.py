@@ -6,7 +6,11 @@ from sklearn import preprocessing
 
 
 #
-
+def encode_for_weka():
+    data=pd.read_csv('./data/final/20 percent train set boolean feature selected with normalized data.csv')
+    weka_type_encode={0:'noraml',1:'attack',2:'attack',3:'attack',4:'attack'}
+    data['target'].replace(weka_type_encode,inplace=True)
+    data.to_csv('./data/final/3.csv', sep=',', encoding='utf-8', index=False, header=True)
 def encode_data(filename):
     train_data = pd.read_csv(filename+'.csv', header=-1)
     train_data[1]=train_data[1].astype('category').cat.codes
@@ -20,9 +24,9 @@ def encode_data(filename):
     attck_encode={"normal":0, "dos":1 ,"r2l":2, "probe":3 ,"u2r":4}
     train_data[41].replace(attck_encode,inplace=True)
     train_data.to_csv(filename+'encoded_data.csv',sep=',', encoding='utf-8',index=False,header=False)
-    two_type_encode={0:0,1:1,2:1,3:1,4:1}
+    two_type_encode={0:0,1:1,2:2,3:3,4:4}
     train_data[41].replace(two_type_encode,inplace=True)
-    train_data.to_csv(filename+'bolean_attack.csv',sep=',', encoding='utf-8',index=False,header=False)
+    train_data.to_csv(filename+' bolean_attack.csv',sep=',', encoding='utf-8',index=False,header=False)
 
 
 def slected_feature_data_sets_save(ind,filename):
@@ -66,8 +70,11 @@ def normalized_data(filename):
     data.to_csv('./data/final/'+filename+' with normalized data'+'.csv',sep=',', encoding='utf-8',index=False,header=True)
     print(data.head())
 
-#find_features()
-normalized_data('20 Percent Training Set reducedAttacks_datafeature selected')
-normalized_data('20 Percent Training Set encoded_datafeature selected')
-normalized_data('20 percent train set boolean feature selected')
-vt=1;
+
+# encode_data('./data/20 Percent Training Set')
+# find_features()
+#
+# normalized_data('20 Percent Training Set reducedAttacks_datafeature selected')
+# normalized_data('20 Percent Training Set encoded_datafeature selected')
+# normalized_data('20 percent train set boolean feature selected')
+encode_for_weka()
