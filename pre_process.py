@@ -1,8 +1,10 @@
 import pandas as pd
-import weka.core.jvm as jvm
 from sklearn.feature_selection import mutual_info_regression,mutual_info_classif,mutual_info_
 import numpy as np
 from sklearn import preprocessing
+
+
+
 #
 
 def encode_data(filename):
@@ -59,10 +61,13 @@ def normalized_data(filename):
     x_scale=min_max_scaler.fit_transform(x)
     data=pd.DataFrame(x_scale)
     data=pd.concat([data,target],axis=1)
-    data.to_csv('./data/final/'+filename+' with normalized data'+'.csv',sep=',', encoding='utf-8',index=False,header=False)
+    data.columns=["src_bytes", "service","dst_bytes","flag","diff_srv_rate","same_srv_ratedst"
+        ,"host srv countdst","host same srv rate","target"]
+    data.to_csv('./data/final/'+filename+' with normalized data'+'.csv',sep=',', encoding='utf-8',index=False,header=True)
     print(data.head())
 
 #find_features()
 normalized_data('20 Percent Training Set reducedAttacks_datafeature selected')
 normalized_data('20 Percent Training Set encoded_datafeature selected')
 normalized_data('20 percent train set boolean feature selected')
+vt=1;
