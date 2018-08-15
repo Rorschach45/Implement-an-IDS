@@ -75,10 +75,14 @@ meta = MultipleClassifiersCombiner(classname="weka.classifiers.meta.Vote"
 
 from weka.core.classes import Random
 eval=Evaluation(data)
-cls=Classifier(classname='weka.classifiers.trees.RandomTree',options=['-K', '6'])
+cls=Classifier(classname='weka.classifiers.trees.J48',options=['-C','.025'])
 print(cls.options)
 pout = PredictionOutput(classname="weka.classifiers.evaluation.output.prediction.PlainText")
-eval.crossvalidate_model(cls,data,10,Random(1),pout)
+eval.crossvalidate_model(cls,data,3,Random(1),pout)
 print(eval.percent_correct)
 print(eval.summary())
+print(eval.class_details())
+print('true positive:'+str(eval.true_positive_rate(1)))
+print('false positive:'+str(eval.false_positive_rate(1)))
+
 jvm.stop()

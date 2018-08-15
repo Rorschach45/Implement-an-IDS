@@ -8,7 +8,7 @@ from sklearn import preprocessing
 #
 def encode_for_weka():
     data=pd.read_csv('./data/final/20 percent train set boolean feature selected with normalized data.csv')
-    weka_type_encode={0:'noraml',1:'attack',2:'attack',3:'attack',4:'attack'}
+    weka_type_encode={0:False,1:True,2:True,3:True,4:True}
     data['target'].replace(weka_type_encode,inplace=True)
     data.to_csv('./data/final/3.csv', sep=',', encoding='utf-8', index=False, header=True)
 def encode_data(filename):
