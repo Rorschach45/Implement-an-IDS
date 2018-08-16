@@ -10,7 +10,7 @@ def encode_for_weka():
     data=pd.read_csv('./data/final/20 percent train set boolean feature selected with normalized data.csv')
     weka_type_encode={0:False,1:True,2:True,3:True,4:True}
     data['target'].replace(weka_type_encode,inplace=True)
-    data.to_csv('./data/final/3.csv', sep=',', encoding='utf-8', index=False, header=True)
+    data.to_csv('./data/final/bolean_for_weka.csv', sep=',', encoding='utf-8', index=False, header=True)
 def encode_data(filename):
     train_data = pd.read_csv(filename+'.csv', header=-1)
     train_data[1]=train_data[1].astype('category').cat.codes

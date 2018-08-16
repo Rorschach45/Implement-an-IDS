@@ -1,0 +1,212 @@
+*************************************************
+the result of Proposed model on:boolean_target
+\*************************************************/
+99.52362048431917
+Correctly Classified Instances        5014               99.5236 %
+Incorrectly Classified Instances        24                0.4764 %
+Kappa statistic                          0.9904
+Mean absolute error                      0.0393
+Root mean squared error                  0.0938
+Relative absolute error                  7.8889 %
+Root relative squared error             18.8064 %
+Total Number of Instances             5038     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.999    0.008    0.993      0.999    0.996      0.990    1.000     1.000     False
+                 0.992    0.001    0.998      0.992    0.995      0.990    1.000     1.000     True
+Weighted Avg.    0.995    0.005    0.995      0.995    0.995      0.990    1.000     1.000     
+
+true positive:0.9915254237288136
+false positive:0.0014936519790888724
+
+
+
+
+*************************************************
+the result of J48 model on:boolean_target
+\*************************************************/
+98.78920206431124
+Correctly Classified Instances        4977               98.7892 %
+Incorrectly Classified Instances        61                1.2108 %
+Kappa statistic                          0.9757
+Mean absolute error                      0.0193
+Root mean squared error                  0.1023
+Relative absolute error                  3.867  %
+Root relative squared error             20.4986 %
+Total Number of Instances             5038     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.987    0.011    0.990      0.987    0.989      0.976    0.998     0.998     False
+                 0.989    0.013    0.986      0.989    0.987      0.976    0.998     0.996     True
+Weighted Avg.    0.988    0.012    0.988      0.988    0.988      0.976    0.998     0.997     
+
+true positive:0.9885593220338983
+false positive:0.012696041822255415
+
+
+
+
+*************************************************
+the result of Naïve Bayes model on:boolean_target
+\*************************************************/
+88.58674077014689
+Correctly Classified Instances        4463               88.5867 %
+Incorrectly Classified Instances       575               11.4133 %
+Kappa statistic                          0.7696
+Mean absolute error                      0.123 
+Root mean squared error                  0.3352
+Relative absolute error                 24.7113 %
+Root relative squared error             67.1769 %
+Total Number of Instances             5038     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.932    0.167    0.864      0.932    0.897      0.772    0.885     0.780     False
+                 0.833    0.068    0.915      0.833    0.872      0.772    0.885     0.910     True
+Weighted Avg.    0.886    0.120    0.888      0.886    0.885      0.772    0.885     0.841     
+
+true positive:0.8334745762711865
+false positive:0.06796116504854369
+
+
+
+
+*************************************************
+the result of random tree model on:boolean_target
+\*************************************************/
+99.72211194918619
+Correctly Classified Instances        5024               99.7221 %
+Incorrectly Classified Instances        14                0.2779 %
+Kappa statistic                          0.9944
+Mean absolute error                      0.0028
+Root mean squared error                  0.0527
+Relative absolute error                  0.5623 %
+Root relative squared error             10.565  %
+Total Number of Instances             5038     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.996    0.001    0.999      0.996    0.997      0.994    0.997     0.997     False
+                 0.999    0.004    0.995      0.999    0.997      0.994    0.997     0.995     True
+Weighted Avg.    0.997    0.003    0.997      0.997    0.997      0.994    0.997     0.996     
+
+true positive:0.9987288135593221
+false positive:0.004107542942494399
+
+
+
+
+*************************************************
+the result of Proposed model on:reduced attacks to 4
+\*************************************************/
+99.70226280269948
+Correctly Classified Instances        5023               99.7023 %
+Incorrectly Classified Instances        15                0.2977 %
+Kappa statistic                          0.9948
+Mean absolute error                      0.0467
+Root mean squared error                  0.0876
+Relative absolute error                 20.3559 %
+Root relative squared error             25.8455 %
+Total Number of Instances             5038     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.999    0.004    0.997      0.999    0.998      0.995    1.000     1.000     normal
+                 1.000    0.001    0.999      1.000    0.999      0.999    1.000     1.000     dos
+                 0.841    0.000    1.000      0.841    0.914      0.916    0.984     0.945     r2l
+                 0.991    0.001    0.991      0.991    0.991      0.991    1.000     0.998     probe
+                 ?        0.000    ?          ?        ?          ?        ?         ?         u2r
+Weighted Avg.    0.997    0.002    0.997      0.997    0.997      0.995    1.000     0.999     
+
+true positive:1.0
+false positive:0.0006277463904582549
+
+
+
+
+*************************************************
+the result of J48 model on:reduced attacks to 4
+\*************************************************/
+98.59071059944422
+Correctly Classified Instances        4967               98.5907 %
+Incorrectly Classified Instances        71                1.4093 %
+Kappa statistic                          0.9755
+Mean absolute error                      0.0093
+Root mean squared error                  0.0701
+Relative absolute error                  4.0461 %
+Root relative squared error             20.6822 %
+Total Number of Instances             5038     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.988    0.011    0.990      0.988    0.989      0.977    0.997     0.997     normal
+                 0.991    0.002    0.997      0.991    0.994      0.991    0.999     0.997     dos
+                 0.886    0.000    0.951      0.886    0.918      0.918    0.962     0.864     r2l
+                 0.961    0.008    0.923      0.961    0.942      0.936    0.991     0.944     probe
+                 ?        0.000    ?          ?        ?          ?        ?         ?         u2r
+Weighted Avg.    0.986    0.007    0.986      0.986    0.986      0.978    0.997     0.991     
+
+true positive:0.9913606911447084
+false positive:0.0018832391713747645
+
+
+
+
+*************************************************
+the result of Naïve Bayes model on:reduced attacks to 4
+\*************************************************/
+70.78205637157602
+Correctly Classified Instances        3566               70.7821 %
+Incorrectly Classified Instances      1472               29.2179 %
+Kappa statistic                          0.563 
+Mean absolute error                      0.122 
+Root mean squared error                  0.3265
+Relative absolute error                 53.2325 %
+Root relative squared error             96.3768 %
+Total Number of Instances             5038     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.590    0.039    0.945      0.590    0.727      0.584    0.933     0.933     normal
+                 0.935    0.089    0.860      0.935    0.896      0.833    0.965     0.968     dos
+                 0.045    0.004    0.087      0.045    0.060      0.057    0.905     0.079     r2l
+                 0.541    0.039    0.585      0.541    0.562      0.520    0.811     0.552     probe
+                 ?        0.178    0.000      ?        ?          ?        ?         ?         u2r
+Weighted Avg.    0.708    0.057    0.873      0.708    0.768      0.665    0.933     0.903     
+
+true positive:0.9352051835853131
+false positive:0.08851224105461393
+
+
+
+
+*************************************************
+the result of random tree model on:reduced attacks to 4
+\*************************************************/
+99.70226280269948
+Correctly Classified Instances        5023               99.7023 %
+Incorrectly Classified Instances        15                0.2977 %
+Kappa statistic                          0.9948
+Mean absolute error                      0.0012
+Root mean squared error                  0.0343
+Relative absolute error                  0.5231 %
+Root relative squared error             10.1245 %
+Total Number of Instances             5038     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.997    0.002    0.998      0.997    0.998      0.995    0.998     0.997     normal
+                 0.999    0.001    0.998      0.999    0.999      0.998    0.999     0.998     dos
+                 0.909    0.000    0.952      0.909    0.930      0.930    0.954     0.867     r2l
+                 0.996    0.001    0.994      0.996    0.995      0.994    0.998     0.990     probe
+                 ?        0.000    0.000      ?        ?          ?        ?         ?         u2r
+Weighted Avg.    0.997    0.002    0.997      0.997    0.997      0.995    0.998     0.996     
+
+true positive:0.9994600431965442
+false positive:0.0009416195856873823
+
+
+
+
