@@ -2,7 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7a73e6f-9d47-4c61-b8e7-a2d247299a6f" name="Default" comment="TEST FINDING TP FN">
-      <change beforePath="$PROJECT_DIR$/data/final/3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/20 Percent Training Set bolean_attack.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/20 Percent Training Set bolean_attack.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/20 Percent Training Set encoded_datafeature selected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/20 Percent Training Set reducedAttacks_datafeature selected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/20 Percent Training Setencoded_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/20 Percent Training SetreducedAttacks_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/20 percent train set boolean feature selected.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/20 percent train set boolean feature selected.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Attack Types.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Field Names.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/KDDTest+.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/KDDTest+.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/KDDTest-21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/KDDTrain+.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/KDDTrain+.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/KDDTrain+_20Percent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Original NSL KDD Zip.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Small Training Set.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/20 Percent Training Set bolean_attack.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/20 Percent Training Set encoded_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/20 Percent Training Set encoded_datafeature selected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/20 Percent Training Set reducedAttacks_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/20 Percent Training Set reducedAttacks_datafeature selected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/20 Percent Training Set.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/20 percent train set boolean feature selected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/Attack Types.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/Field Names.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/Field Names.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/KDDTest+.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/KDDTest+.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/KDDTest-21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/KDDTrain+.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/KDDTrain+.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/KDDTrain+_20Percent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/Original NSL KDD Zip.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/Small Training Set.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/bolean_attack.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/encoded_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/backup/reducedAttacks_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bolean_attack.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/encoded_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/final/20 Percent Training Set encoded_datafeature selected with normalized data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/final/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/final/20 percent train set boolean feature selected with normalized data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/20 percent train set boolean feature selected with normalized data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/final/bolean_for_weka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/bolean_for_weka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/reducedAttacks_data.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pre_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_process.py" afterDir="false" />
     </list>
@@ -13,70 +62,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ids_security$pre_process.coverage" NAME="pre_process Coverage Results" MODIFIED="1534422963285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ids_security$main.coverage" NAME="main Coverage Results" MODIFIED="1534425660104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ids_security$pre_process.coverage" NAME="pre_process Coverage Results" MODIFIED="1534430557794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ids_security$main.coverage" NAME="main Coverage Results" MODIFIED="1534430826736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ids_paper$pre_process.coverage" NAME="pre_process Coverage Results" MODIFIED="1532872403125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-760668675">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2311" />
+          <entry key="py" value="2327" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="2311" />
+          <entry key="Python" value="2327" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pre_process.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///media/matador/01D36E7BF49CDCF0/temp/pre_process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-673">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="122">
+              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1534422953702" expanded="true" signature="194:525" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
-                <element signature="e#315#1619#0" />
-                <element signature="e#2361#3287#0" />
-                <element signature="e#3365#4296#0" />
-                <element signature="e#4342#5287#0" />
-                <marker date="1534425657237" expanded="true" signature="3576:4844" ph="..." />
+                <marker date="1534430793585" expanded="true" signature="3576:4844" ph="..." />
               </folding>
             </state>
           </provider>
@@ -255,7 +301,7 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27564102" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2820513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -304,28 +350,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/pre_process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/matador/01D36E7BF49CDCF0/temp/pre_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
-            <element signature="e#315#1619#0" />
-            <element signature="e#2361#3287#0" />
-            <element signature="e#3365#4296#0" />
-            <element signature="e#4342#5287#0" />
-            <marker date="1534425657237" expanded="true" signature="3576:4844" ph="..." />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pre_process.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-673">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1534422953702" expanded="true" signature="194:525" ph="..." />
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1534430793585" expanded="true" signature="3576:4844" ph="..." />
           </folding>
         </state>
       </provider>

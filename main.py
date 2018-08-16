@@ -124,21 +124,21 @@ random_tree('./data/final/bolean_for_weka.csv','boolean_target',True)
 random_tree('./data/final/bolean_for_weka.csv','boolean_target',False)
 
 
-vote_classifier_train('./data/final/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv',
+vote_classifier_train('./data/final/20 Percent Training Set reducedAttacks_data feature selected with normalized data.csv',
                       'reduced attacks to 4',True)
-vote_classifier_train('./data/final/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv',
+vote_classifier_train('./data/final/20 Percent Training Set reducedAttacks_data feature selected with normalized data.csv',
                       'reduced attacks to 4',False)
-j48('./data/final/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv',
+j48('./data/final/20 Percent Training Set reducedAttacks_data feature selected with normalized data.csv',
     'reduced attacks to 4',True)
-j48('./data/final/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv',
+j48('./data/final/20 Percent Training Set reducedAttacks_data feature selected with normalized data.csv',
     'reduced attacks to 4',False)
-naive_bayse('./data/final/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv',
+naive_bayse('./data/final/20 Percent Training Set reducedAttacks_data feature selected with normalized data.csv',
             'reduced attacks to 4',True)
-naive_bayse('./data/final/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv',
+naive_bayse('./data/final/20 Percent Training Set reducedAttacks_data feature selected with normalized data.csv',
             'reduced attacks to 4',False)
-random_tree('./data/final/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv',
+random_tree('./data/final/20 Percent Training Set reducedAttacks_data feature selected with normalized data.csv',
             'reduced attacks to 4',True)
-random_tree('./data/final/20 Percent Training Set reducedAttacks_datafeature selected with normalized data.csv',
+random_tree('./data/final/20 Percent Training Set reducedAttacks_data feature selected with normalized data.csv',
             'reduced attacks to 4',False)
 
 
